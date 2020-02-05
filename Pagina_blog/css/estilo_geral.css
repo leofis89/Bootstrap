@@ -1,0 +1,78 @@
+
+body{
+    margin:0;
+    padding:0;
+    fon: 100% arial, sans-serif;
+    background-color:  #ccc;
+}
+
+section{
+  
+    background-color: azure;
+    
+}
+
+/* JUMBOTRON */
+
+/*
+OBS: BACKGROUND-COVER ==> MOSTRA A IMAGEM COMPLETA 
+*/
+
+
+.jumbotron {
+    background-image: url(../imgs/bg-3.jpg);
+    min-height: 80vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.jumbotron h1{
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 1px rgba(0,0,0, 0.7);
+    color: whitesmoke
+   
+}
+
+.jumbotron p{
+   
+    text-shadow: 2px 2px 1px rgba(0,0,0, 0.1);
+   /* background-color: rgba(0,0,0, 0.4);
+    border-bottom: 1px solid white;*/
+}
+
+.nav-item_1 {
+    background-color: rgba(0,0,0, 0.4);
+    margin: 10px 10px;
+    border: 1px solid white;
+   
+}
+
+.nav-item_2 {
+    background-color: rgba(0,0,0, 0.4);
+    margin: 10px 10px;
+    border: 1px solid white;
+   
+}
+
+.nav-item_3 {
+    background-color: rgba(0,0,0, 0.4);
+    margin: 10px 10px;
+    border: 1px solid white;
+   
+    
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+.nav {
+    position: absolute;
+    z-index: 1;
+    right: 1rem; /* POSICIONA A DIREITA */
+     
+}

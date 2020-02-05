@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRID-Bootstrap</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilo_geral.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+
+    <style>
+        .col:nth-child(even){
+            background-color: cadetblue;  
+        }
+        .col:nth-child(odd){
+            background-color: rgb(119, 160, 95);    
+        }
+        .col-2:nth-child(odd){
+            background-color: cadetblue;  
+        }
+        .col-4:nth-child(even){
+            background-color: rgb(119, 160, 95);    
+        }
+        .col-6:nth-child(odd){
+            background-color: rgb(95, 147, 160);    
+        }
+
+      
+    </style>
+
+</head>
+
+<!--
+    OBS: 
+    col ==> colunas uma embaixo da outra;
+    row ==> deixa os elementos alinhados em colunas verticais;
+    container ==> Deixa centralizado dando margin right-left;
+    container-fluid ==> Fica pegando a pagina inteira;
+    col-6 offset-4 ==> offset-4 irá pular 4 colunas;
+-->
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">col 1</div>
+            <div class="col">col 2</div>
+            <div class="col">col 3</div>
+            <div class="col">col 4</div>
+            <div class="col">col 5</div>
+            <div class="col">col 6</div>
+            <div class="col">col 7</div>
+            <div class="col">col 8</div>
+            <div class="col">col 9</div>
+            <div class="col">col 10</div>
+            <div class="col">col 11</div>
+            <div class="col">col 12</div>
+        </div>
+     </div>
+     <br><hr><br>
+    
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">col 1</div>
+            <div class="col-4">col 2</div>
+            <div class="col-6">col 3
+                <div class="row">
+                    
+                    <div class="col-2" style="background-color:peru;">col3.col1 </div>
+                    <div class="col-4" style="background-color:goldenrod;">col3.col2</div>
+                    <div class="col-6" style="background-color: pink;">col3.col3</div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <br><hr><br>
+    
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">col 1</div>
+            
+            <div class="col-6 offset-4" style="background-color: rgb(236, 69, 236);">col3 com ofsset-4</div>
+          
+        </div>
+     </div>
+     
+
+
+</body>
+
+</html>
